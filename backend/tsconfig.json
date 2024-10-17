@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
     "esModuleInterop": true,
-    "target": "ES2015"
-  }
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }

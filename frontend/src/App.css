@@ -1,0 +1,23 @@
+.app-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sort-container,
+.search-container {
+    margin: 10px 0;
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+select {
+    padding: 8px;
+}
